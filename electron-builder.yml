@@ -35,8 +35,8 @@ nsis:
   allowToChangeInstallationDirectory: true
   createDesktopShortcut: true
   createStartMenuShortcut: true
-  shortcutName: BLACKSITE
-  uninstallDisplayName: BLACKSITE
+  shortcutName: CVE Radar
+  uninstallDisplayName: CVE Radar
   deleteAppDataOnUninstall: false
   runAfterFinish: true
   artifactName: CVE-Radar-Setup-${version}-${arch}.${ext}
