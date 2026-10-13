@@ -1,0 +1,372 @@
+{
+    "schemaVersion":  1,
+    "title":  "BLACKSITE INTELLIGENCE NETWORK",
+    "safety":  {
+                   "automaticUploads":  false,
+                   "automaticSubmissions":  false,
+                   "externalLinksInBrowser":  true,
+                   "humanApprovalRequired":  true
+               },
+    "resources":  [
+                      {
+                          "id":  "cisa-kev",
+                          "name":  "CISA KEV",
+                          "category":  "Vulnerability Intelligence",
+                          "url":  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+                          "description":  "Known exploited vulnerabilities",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "nvd",
+                          "name":  "NIST NVD",
+                          "category":  "Vulnerability Intelligence",
+                          "url":  "https://nvd.nist.gov/",
+                          "description":  "CVE records and vulnerability analysis",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "github-advisories",
+                          "name":  "GitHub Advisories",
+                          "category":  "Vulnerability Intelligence",
+                          "url":  "https://github.com/advisories",
+                          "description":  "Software package security advisories",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "osv",
+                          "name":  "OSV",
+                          "category":  "Vulnerability Intelligence",
+                          "url":  "https://osv.dev/",
+                          "description":  "Open source vulnerability database",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "cve-org",
+                          "name":  "CVE Program",
+                          "category":  "Vulnerability Intelligence",
+                          "url":  "https://www.cve.org/",
+                          "description":  "Official CVE records and references",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "exploit-db",
+                          "name":  "Exploit Database",
+                          "category":  "Vulnerability Intelligence",
+                          "url":  "https://www.exploit-db.com/",
+                          "description":  "Public exploit research and references",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "virustotal",
+                          "name":  "VirusTotal",
+                          "category":  "Security Analysis",
+                          "url":  "https://www.virustotal.com/gui/home/search",
+                          "description":  "Hash, URL, domain and IP reputation investigation",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "urlscan",
+                          "name":  "urlscan.io",
+                          "category":  "Security Analysis",
+                          "url":  "https://urlscan.io/",
+                          "description":  "Website behavior and phishing investigation",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "hybrid-analysis",
+                          "name":  "Hybrid Analysis",
+                          "category":  "Security Analysis",
+                          "url":  "https://www.hybrid-analysis.com/",
+                          "description":  "Malware sandbox reports and file analysis",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "anyrun",
+                          "name":  "ANY.RUN",
+                          "category":  "Security Analysis",
+                          "url":  "https://any.run/",
+                          "description":  "Interactive malware analysis sandbox",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "joesandbox",
+                          "name":  "Joe Sandbox",
+                          "category":  "Security Analysis",
+                          "url":  "https://www.joesandbox.com/",
+                          "description":  "Malware behavior analysis",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "abuseipdb",
+                          "name":  "AbuseIPDB",
+                          "category":  "Security Analysis",
+                          "url":  "https://www.abuseipdb.com/",
+                          "description":  "IP abuse reports and reputation",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "shodan",
+                          "name":  "Shodan",
+                          "category":  "Security Analysis",
+                          "url":  "https://www.shodan.io/",
+                          "description":  "Internet-exposed services and devices",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "censys",
+                          "name":  "Censys",
+                          "category":  "Security Analysis",
+                          "url":  "https://search.censys.io/",
+                          "description":  "Internet asset and certificate investigation",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "talos-reputation",
+                          "name":  "Cisco Talos Intelligence",
+                          "category":  "Security Analysis",
+                          "url":  "https://talosintelligence.com/",
+                          "description":  "Threat and reputation research",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "crtsh",
+                          "name":  "crt.sh",
+                          "category":  "Security Analysis",
+                          "url":  "https://crt.sh/",
+                          "description":  "Certificate transparency searches",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "mxtoolbox",
+                          "name":  "MXToolbox",
+                          "category":  "Security Analysis",
+                          "url":  "https://mxtoolbox.com/",
+                          "description":  "DNS, mail and infrastructure diagnostics",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "dnschecker",
+                          "name":  "DNSChecker",
+                          "category":  "Security Analysis",
+                          "url":  "https://dnschecker.org/",
+                          "description":  "Public DNS propagation checks",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "sans-isc",
+                          "name":  "SANS ISC",
+                          "category":  "Threat Intelligence",
+                          "url":  "https://isc.sans.edu/",
+                          "description":  "Internet Storm Center research and diaries",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "urlhaus",
+                          "name":  "URLhaus",
+                          "category":  "Threat Intelligence",
+                          "url":  "https://urlhaus.abuse.ch/",
+                          "description":  "Malware distribution URL intelligence",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "threatfox",
+                          "name":  "ThreatFox",
+                          "category":  "Threat Intelligence",
+                          "url":  "https://threatfox.abuse.ch/",
+                          "description":  "Threat indicators and malware associations",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "malwarebazaar",
+                          "name":  "MalwareBazaar",
+                          "category":  "Threat Intelligence",
+                          "url":  "https://bazaar.abuse.ch/",
+                          "description":  "Malware sample intelligence and hashes",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "otx",
+                          "name":  "AlienVault OTX",
+                          "category":  "Threat Intelligence",
+                          "url":  "https://otx.alienvault.com/",
+                          "description":  "Community threat intelligence pulses",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "mitre-attack",
+                          "name":  "MITRE ATT\u0026CK",
+                          "category":  "Research and Defense",
+                          "url":  "https://attack.mitre.org/",
+                          "description":  "Adversary tactics and techniques",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "mitre-d3fend",
+                          "name":  "MITRE D3FEND",
+                          "category":  "Research and Defense",
+                          "url":  "https://d3fend.mitre.org/",
+                          "description":  "Defensive cybersecurity techniques",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "sigma",
+                          "name":  "Sigma HQ",
+                          "category":  "Research and Defense",
+                          "url":  "https://sigmahq.io/",
+                          "description":  "Portable detection rules",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "dfir-report",
+                          "name":  "The DFIR Report",
+                          "category":  "Research and Defense",
+                          "url":  "https://thedfirreport.com/",
+                          "description":  "Incident investigation case studies",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "project-zero",
+                          "name":  "Google Project Zero",
+                          "category":  "Research and Defense",
+                          "url":  "https://googleprojectzero.blogspot.com/",
+                          "description":  "Vulnerability research and analysis",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "msrc",
+                          "name":  "Microsoft MSRC",
+                          "category":  "Vendor Advisories",
+                          "url":  "https://msrc.microsoft.com/update-guide",
+                          "description":  "Microsoft security updates and advisories",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "watchguard",
+                          "name":  "WatchGuard Security Advisories",
+                          "category":  "Vendor Advisories",
+                          "url":  "https://www.watchguard.com/wgrd-psirt/advisories",
+                          "description":  "WatchGuard product security advisories",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "fortiguard",
+                          "name":  "FortiGuard PSIRT",
+                          "category":  "Vendor Advisories",
+                          "url":  "https://www.fortiguard.com/psirt",
+                          "description":  "Fortinet product security advisories",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "portswigger",
+                          "name":  "PortSwigger Web Security Academy",
+                          "category":  "Learning",
+                          "url":  "https://portswigger.net/web-security",
+                          "description":  "Web application security lessons and labs",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "owasp",
+                          "name":  "OWASP",
+                          "category":  "Learning",
+                          "url":  "https://owasp.org/",
+                          "description":  "Application security projects and guidance",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "cyberdefenders",
+                          "name":  "CyberDefenders",
+                          "category":  "Learning",
+                          "url":  "https://cyberdefenders.org/",
+                          "description":  "Blue-team investigation exercises",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "bleepingcomputer",
+                          "name":  "BleepingComputer",
+                          "category":  "Community and News",
+                          "url":  "https://www.bleepingcomputer.com/",
+                          "description":  "Cybersecurity reporting and incident coverage",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      },
+                      {
+                          "id":  "krebs",
+                          "name":  "KrebsOnSecurity",
+                          "category":  "Community and News",
+                          "url":  "https://krebsonsecurity.com/",
+                          "description":  "Investigative cybersecurity journalism",
+                          "mode":  "external-https",
+                          "enabled":  true,
+                          "favorite":  false
+                      }
+                  ]
+}

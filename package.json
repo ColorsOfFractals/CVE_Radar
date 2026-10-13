@@ -1,0 +1,29 @@
+{
+    "name":  "cve-radar",
+    "version":  "1.0.0",
+    "private":  true,
+    "description":  "Blacksite vulnerability intelligence console",
+    "main":  "main.js",
+    "scripts":  {
+                    "start":  "electron .",
+                    "build:win":  "electron-builder --win nsis --x64"
+                },
+    "devDependencies":  {
+                            "electron":  "44.7.0",
+                            "electron-builder":  "^26.15.3",
+                            "esbuild":  "0.25.12"
+                        },
+    "author":  "ColorsOfFractals",
+    "build":  {
+                  "extends":  "./electron-builder.yml"
+              },
+    "overrides":  {
+                      "roarr":  {
+                                    "sprintf-js":  "^1.2.0"
+                                }
+                  },
+    "dependencies":  {
+                         "react":  "19.3.0",
+                         "react-dom":  "19.3.0"
+                     }
+}

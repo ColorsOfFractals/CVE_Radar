@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'"><title>CVE RADAR // BLACKSITE</title><link rel="stylesheet" href="style.css"></head><body><div id="radar-react-titlebar"></div><script defer src="titlebar.bundle.js"></script>
+<div class="noise"></div><div class="scanlines"></div><main id="app">
+<header><div class="brand"><div class="crosshair">✳</div><div><h1><span>CVE</span> RADAR</h1><p>VULNERABILITY INTELLIGENCE // BLACKSITE TERMINAL</p></div></div><div class="header-right"><span class="pulse"></span><span id="status">SYSTEM STANDBY</span><span class="clock" id="clock"></span></div></header>
+<div class="bs-nav">
+    <button id="bsOrbitTab" class="bs-tab bs-active" type="button">◉ INTELLIGENCE MATRIX</button>
+    <button id="bsNetworkTab" class="bs-tab" type="button">⌘ NETWORK DIRECTORY <span>36</span></button>
+</div>
+<section id="orbitView"><div class="overline">SECURITY INTELLIGENCE MATRIX <span>// 04 CHANNELS</span></div><h2>CHOOSE YOUR <em>INTELLIGENCE</em> SOURCE</h2><p class="subtitle">ROTATE THE ARRAY. SELECT A SIGNAL. ENTER THE TERMINAL.</p><div class="scene"><div class="orbit-ring"></div><div class="core"><div class="core-circle">◎</div><span>LIVE INTEL</span></div><div id="carousel" class="carousel"></div></div><div class="nav"><button id="prev" aria-label="Previous source">‹</button><span id="indicator">01 / 04</span><button id="next" aria-label="Next source">›</button></div><div class="bottom-ticker"><span>◈ ACTIVE THREAT SURVEILLANCE</span><span>◈ HUMAN VERIFIED DECISIONS</span><span>◈ NO ENDPOINT MODIFICATION</span></div></section>
+<section id="detailView" class="hidden"><div class="detail-top"><button id="back">← RETURN TO ORBIT</button><span id="channelCode">CHANNEL // 01</span></div><div class="detail-hero"><div class="eyebrow" id="detailEyebrow"></div><h2 id="detailTitle"></h2><p id="detailDesc"></p></div><div class="toolbar"><input id="search" type="search" placeholder="SEARCH CVE / VENDOR / PRODUCT / KEYWORD" aria-label="Search advisories"><button id="refresh">↻ REFRESH INTEL</button><button id="sourceLink">↗ ORIGINAL SOURCE</button></div><div class="data-head"><span id="recordCount">NO DATA LOADED</span><span id="updated">AWAITING SIGNAL</span></div><div class="table-wrap"><table><thead><tr><th>CVE ID</th><th>VENDOR / PRODUCT</th><th>VULNERABILITY</th><th>ADDED</th><th>DETAILS</th></tr></thead><tbody id="rows"></tbody></table><div id="placeholder" class="placeholder">SELECT REFRESH TO RETRIEVE LIVE INTELLIGENCE.</div></div></section>
+<section id="networkView" class="hidden">
+    <div class="bs-heading">
+        <div>
+            <div class="bs-overline">BLACKSITE // RESEARCH NETWORK</div>
+            <h2>INTELLIGENCE <em>DIRECTORY</em></h2>
+            <p>CURATED CYBERSECURITY RESOURCES // EXTERNAL HTTPS ACCESS</p>
+        </div>
+        <div class="bs-counter">
+            <strong id="bsTotal">36</strong>
+            <span>REGISTERED NODES</span>
+        </div>
+    </div>
+
+    <div class="bs-controls">
+        <input id="bsSearch" type="search"
+            placeholder="SEARCH TOOLS / VULNERABILITIES / THREAT INTELLIGENCE"
+            aria-label="Search intelligence resources">
+        <label class="bs-fav-label">
+            <input id="bsFavorites" type="checkbox">
+            FAVORITES ONLY
+        </label>
+    </div>
+
+    <div id="bsCategories" class="bs-categories"
+        aria-label="Filter by resource category"></div>
+
+    <div class="bs-results">
+        <span id="bsResultCount">INITIALIZING DIRECTORY</span>
+        <span>HTTPS // EXTERNAL BROWSER // MANUAL ACCESS</span>
+    </div>
+
+    <div id="bsGrid" class="bs-grid"></div>
+
+    <div id="bsEmpty" class="bs-empty hidden">
+        NO MATCHING INTELLIGENCE RESOURCES
+    </div>
+
+    <div class="bs-disclaimer">
+        BLACKSITE DOES NOT AUTOMATICALLY SUBMIT FILES, HASHES,
+        URLS OR INVESTIGATION DATA TO EXTERNAL SERVICES.
+    </div>
+</section>
+<footer><span>BLACKSITE // CVE RADAR v1.0.0</span><span>ALL FEEDS ARE UNTRUSTED INPUT · NO AUTOMATIC REMEDIATION</span></footer>
+</main><div id="bsWelcome" class="bs-welcome" role="dialog"
+     aria-modal="true" aria-labelledby="bsWelcomeTitle" hidden>
+    <div class="bs-welcome-card">
+        <div class="bs-welcome-kicker">COLORSOFFRACTALS // SECURITY INTELLIGENCE</div>
+        <div class="bs-welcome-reticle" aria-hidden="true">◎</div>
+        <div class="bs-welcome-version">INITIALIZATION // BLACKSITE v1.0.0</div>
+        <h1 id="bsWelcomeTitle">WELCOME TO BLACKSITE</h1>
+        <p class="bs-welcome-description">
+            Your dedicated cybersecurity intelligence directory.
+            Thirty-six resources. Seven categories. One command center.
+        </p>
+        <div class="bs-welcome-features">
+            <span>SECURITY INTELLIGENCE MATRIX</span>
+            <span>SEARCHABLE RESOURCE DIRECTORY</span>
+            <span>LOCAL FAVORITES</span>
+            <span>EXTERNAL BROWSER LAUNCH</span>
+        </div>
+        <p class="bs-welcome-disclaimer">
+            BLACKSITE is an information index, not a vulnerability scanner.
+            External resources open in your default browser.
+        </p>
+        <button id="bsEnterBlacksite" type="button">
+            ENTER BLACKSITE →
+        </button>
+    </div>
+</div>
+<script src="renderer.js"></script>
+</body></html>

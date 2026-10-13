@@ -1,0 +1,14 @@
+﻿node_modules/
+dist/
+Backups/
+*.bak
+*.bak-*
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12

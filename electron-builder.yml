@@ -1,0 +1,44 @@
+executableName: CVE Radar
+artifactName: CVE-Radar-Setup-${version}-${arch}.${ext}
+appId: com.colorsoffractals.cveradar
+productName: CVE Radar
+asar: true
+
+directories:
+  output: dist
+  buildResources: assets
+
+files:
+  - main.js
+  - preload.js
+  - package.json
+  - src/**/*
+  - assets/CVE_Radar.ico
+  - assets/CVE_Radar.png
+  - "!Backups/**/*"
+  - "!dist/**/*"
+
+win:
+  icon: assets/CVE_Radar.ico
+  target:
+    - target: nsis
+      arch:
+        - x64
+
+nsis:
+  installerSidebar: assets/installer-sidebar.bmp
+  installerHeader: assets/installer-header.bmp
+  uninstallerSidebar: assets/uninstaller-sidebar.bmp
+  oneClick: false
+  perMachine: false
+  allowElevation: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: BLACKSITE
+  uninstallDisplayName: BLACKSITE
+  deleteAppDataOnUninstall: false
+  runAfterFinish: true
+  artifactName: CVE-Radar-Setup-${version}-${arch}.${ext}
+publish: null
+generateUpdatesFilesForAllChannels: false
